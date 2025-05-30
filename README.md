@@ -4,6 +4,8 @@ A dynamic library written in C++ with API for most of the main tasks with FFmpeg
 ![ffpp](./resources/ffpp-running-windows.jpg) 
 > Running on Windows.
 
+---
+
 ![ffpp](./resources/ffpp-running-gnu.png)
 > Running on GNU/Linux.
 
