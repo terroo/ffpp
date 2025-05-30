@@ -118,7 +118,6 @@ Assuming you created the object in heap(`auto ffpp = std::make_unique<FFPP>();`)
 
 ### 01. Convert MP4 to WMV:
 ```cpp
-auto ffpp = std::make_unique<FFPP>();
 ffpp->ffpp_convert("video.mp4", "new.wmv");
 ```
 > Only converts between video extensions: `.mp4`, `.flv`, `.wmv` and `.mov`
