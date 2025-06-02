@@ -19,7 +19,7 @@ Move-Item -Path "temp-extract\ffmpeg-7.1.1-full_build-shared\*" -Destination "li
 Remove-Item -Recurse -Force "temp-extract"
 
 # Copy ffmpeg dll
-Copy-Item -Path "C:\Users\Marcos\Desktop\FILES\ProjetoFFPP\libs-ffmpeg\*.dll" -Destination .
+Copy-Item -Path "C:\Users\$env:USERNAME\Desktop\FILES\ProjetoFFPP\libs-ffmpeg\*.dll" -Destination .
 
 # Make libffpp.dll
 clang++ -I.\libs-ffmpeg\include -c -fPIC -I. ffpp.cpp -o ffpp.o
